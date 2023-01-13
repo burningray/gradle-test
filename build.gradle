@@ -29,6 +29,7 @@ publishing {
             }
 
             url = "http://192.168.0.102:8081/repository/maven-releases/"
+            allowInsecureProtocol = true
         }
     }
     publications {
