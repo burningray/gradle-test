@@ -30,7 +30,7 @@ sonarqube {
         property "sonar.password", "hfngoDJer38"
         property "sonar.projectKey", "project:service"
         property 'sonar.projectName', 'NameOf Service'
-        property 'sonar.java.source', 11
+        // property 'sonar.java.source', 11
         property 'sonar.junit.reportPaths', 'build/results'
         property 'encoding', 'UTF-8'
         property 'charSet', 'UTF-8'
