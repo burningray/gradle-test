@@ -5,10 +5,10 @@ plugins {
 }
 
 group = 'gradle-test-sonar'
-version = '0.0.9'
+version = '0.0.10'
 
-sourceCompatibility = "11" // java 8
-targetCompatibility = "11"
+sourceCompatibility = 1.9 // java 8
+targetCompatibility = 1.9
 
 repositories {
   mavenCentral()
