@@ -5,10 +5,10 @@ plugins {
 }
 
 group = 'gradle-test-sonar'
-version = '0.0.10'
+version = '0.0.11'
 
-sourceCompatibility = 1.8 // java 8
-targetCompatibility = 1.8
+sourceCompatibility = 14 // java 8
+targetCompatibility = 14
 
 repositories {
   mavenCentral()
@@ -30,7 +30,7 @@ sonarqube {
         property "sonar.password", "hfngoDJer38"
         property "sonar.projectKey", "project:service"
         property 'sonar.projectName', 'NameOf Service'
-      //  property 'sonar.java.source', 11
+        property 'sonar.java.source', 14
         property 'sonar.junit.reportPaths', 'build/results'
         property 'encoding', 'UTF-8'
         property 'charSet', 'UTF-8'
